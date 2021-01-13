@@ -32,7 +32,8 @@ body {
   height: auto;
   margin: auto;
   margin-top: 5vh;
-  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-left-radius: 2rem;
   background-color: #ffffff;
   width: 80%;
   padding: 0 6rem;
@@ -195,7 +196,6 @@ header h2 {
 .playing {
   display: flex;
   justify-content: space-between;
-  margin: 4rem 0;
 }
 
 h4 {
@@ -291,6 +291,7 @@ h4 {
 
   .playing {
     flex-direction: column;
+    margin-top: 6rem;
   }
   .now {
     width: 100%;
