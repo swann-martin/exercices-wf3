@@ -138,6 +138,7 @@ header h2 {
 
 .fa-play-circle {
   color: white;
+  padding: 1rem;
 }
 
 .header1 {
@@ -265,7 +266,7 @@ h4 {
     padding: 1rem;
   }
   header ul {
-    flex-direction: column;
+    display: none;
   }
   .header__middle h1 {
     font-size: 1rem;
@@ -279,6 +280,7 @@ h4 {
   }
   .trending {
     height: auto;
+    margin-bottom: 10rem;
   }
   .trending .vignettes {
     flex-direction: column;
